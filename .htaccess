@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+
+	RewriteCond %{HTTP_HOST} ^cusocial\.ga$ [NC]
+	RewriteRule ^(.*)$ http://www.cusocial.ga/$1 [R=301,L]
+	RewriteBase /
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	RewriteRule ^(.*)$ index.php?%{QUERY_STRING} [NE,L]
+	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+</IfModule>
