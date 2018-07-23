@@ -49,10 +49,18 @@ function actionRegister(btregister, diverror, divcurrent, divok)
 		return;
 	}
 
+	var checkBox = document.getElementById("termsr");
+
+	if (checkBox.checked != true) {
+		openandclose(diverror,rtxterror8,1700);
+		$('#termsr').focus();
+		setTimeout(function() {$(btregister).removeAttr('disabled');}, 2000);
+		return;
+	}
+
 	usernamer = "ano_" + CryptoJS.MD5(email);
 	usernamer = usernamer.substr(0, 15)
 
-/*
 	$.ajax({
 		type: 'POST',
 		url: siteurl + "ajax/register/r:" + Math.round(Math.random()*1000),
@@ -74,5 +82,4 @@ function actionRegister(btregister, diverror, divcurrent, divok)
 		} //end error
 
 	}); // end ajax
-	*/
 }

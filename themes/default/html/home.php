@@ -75,7 +75,12 @@ $this->load_template('_top.php');
 															<div class="pdn10R mrg10T"><input type="password" name="repassword" id="repassword" class="form-control" placeholder="<?php echo $this->lang('home_f_signup_repw')?>"></div>
 															<div class="mrg10T">
 																<?php echo getCaptcha()?>
-																<div class="fleft mrg21L"><input type="text" name="captcha" id="captcha" placeholder="<?php echo $C->ctcha1?> + <?php echo $C->ctcha2?> = " class="form-control width30c"></div>
+																<div class="mrg21L"><input type="text" name="captcha" id="captcha" placeholder="<?php echo $C->ctcha1?> + <?php echo $C->ctcha2?> = " class="form-control width30c"></div>
+																<div class="pdn10R mrg10T">
+																	<input type="checkbox" id="termsr" name="termsr" />
+														      <label for="termsr"><?php echo $this->lang('home_f_signup_trmstxt')?> <a href="/page/p:termsofuse" class="linkblue onlyblue hand" style="text-decoration: none;"><?php echo $this->lang('home_f_signup_trmslnk')?></a>.</label>
+
+																</div>
 																<div class="sh"></div>
 															</div>
 															<div id="errorsignup" class="alert-error mrg10T pdn10 centered hide"></div>
@@ -139,17 +144,18 @@ $('#btrecovery').click(function(){
 </script>
 
 <script>
-var rtxterror1 = '<?php echo $this->lang('home_f_signup_error1')?>';
-var rtxterror3 = '<?php echo $this->lang('home_f_signup_error3')?>';
-var rtxterror4 = '<?php echo $this->lang('home_f_signup_error4')?>';
-var rtxterror5 = '<?php echo $this->lang('home_f_signup_error8')?>';
-var rtxterror6 = '<?php echo $this->lang('home_f_signup_error10')?>';
-var rtxterror7 = '<?php echo $this->lang('home_f_signup_error11')?>';
+	var rtxterror1 = '<?php echo $this->lang('home_f_signup_error1')?>';
+	var rtxterror3 = '<?php echo $this->lang('home_f_signup_error3')?>';
+	var rtxterror4 = '<?php echo $this->lang('home_f_signup_error4')?>';
+	var rtxterror5 = '<?php echo $this->lang('home_f_signup_error8')?>';
+	var rtxterror6 = '<?php echo $this->lang('home_f_signup_error10')?>';
+	var rtxterror7 = '<?php echo $this->lang('home_f_signup_error11')?>';
+	var rtxterror8 = '<?php echo $this->lang('home_f_signup_error12')?>';
 
-$('#btsignup').click(function(){
-	actionRegister('#btsignup', '#errorsignup', '#areasignup', '#registerok');
-	return false;
-})
+	$('#btsignup').click(function(){
+		actionRegister('#btsignup', '#errorsignup', '#areasignup', '#registerok');
+		return false;
+	})
 </script>
 
             </div>

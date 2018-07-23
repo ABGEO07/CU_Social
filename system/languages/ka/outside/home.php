@@ -35,6 +35,8 @@
 		'home_f_signup_un' => 'Имя пользователя',
 		'home_f_signup_pw' => 'Пароль',
 		'home_f_signup_repw' => 'გაიმეორეთ პაროლი',
+		'home_f_signup_trmstxt' => 'ვეთანხმები',
+		'home_f_signup_trmslnk' => 'წესებს',
 		'home_f_signup_bt' => 'Создать аккаунт',
 		'home_f_signup_error1' => 'Введите действующий E-Mail',
 		'home_f_signup_error2' => 'Введите имя пользователя',
@@ -47,6 +49,7 @@
 		'home_f_signup_error9' => 'Неккоректная сумма.',
 		'home_f_signup_error10' => 'პაროლები არ ემთხვევა.',
 		'home_f_signup_error11' => 'აუცილებელია დარეგისტრირდეთ CU-ს მეილით.',
+		'home_f_signup_error12' => 'უნდა დაეთანხმოთ წესებს.',
 
 		'home_f_signup_txtok1' => 'Отлично!',
 		'home_f_signup_txtok2' => 'Учетная запись была создана',
