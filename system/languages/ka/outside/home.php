@@ -2,46 +2,46 @@
 
 	$lang	= array
 	(
-		'home_page_title'	=> '#SITE_TITLE# - Добро пожаловать',
+		'home_page_title'	=> '#SITE_TITLE# - მოგესალმებით',
 
-		'home_msg_line1' => 'Добро пожаловать в нашу социальную сеть',
-		'home_msg_line2' => 'Общение с друзьями и мир вокруг вас',
+		'home_msg_line1' => 'კეთილი იყოს თქვენი მობრძანება CU-ს ანონიმურ სოციალურ ქსელში',
+		'home_msg_line2' => 'გამოხატეთ თქვენი აზრი და იყავით ანონიმური',
 
-		'home_msg_login' => 'Войти',
-		'home_msg_signup' => 'Создать аккаунт',
+		'home_msg_login' => 'შესვლა',
+		'home_msg_signup' => 'ანგარიშის შექმნა',
 
-		'home_f_txtconnerror' => 'Не удалось выполнить ваш запрос.',
+		'home_f_txtconnerror' => 'თქვენი მოთხოვნა ვერ შესრულდა.',
 
-		'home_f_login_tl' => 'Логин',
-		'home_f_login_un' => 'Имя пользователя или E-Mail',
-		'home_f_login_pw' => 'Пароль',
-		'home_f_login_bt' => 'Войти',
-		'home_f_login_error1' => 'Введите имя пользователя',
-		'home_f_login_error2' => 'Введите действующий E-Mail',
-		'home_f_login_error3' => 'Введите ваш пароль',
-		'home_f_login_error4' => 'Пароль должен содержать от 6 до 15 символов.',
-		'home_f_login_error5' => 'Неверный ввод.',
+		'home_f_login_tl' => 'შესვლა',
+		'home_f_login_un' => 'თქვენი E-Mail',
+		'home_f_login_pw' => 'პაროლი',
+		'home_f_login_bt' => 'შესვლა',
+		'home_f_login_error1' => 'აკრიფეთ თქვენი E-Mail',
+		'home_f_login_error2' => 'აკრიფეთ სწორი E-Mail',
+		'home_f_login_error3' => 'აკრიფეთ თქვენი პაროლი',
+		'home_f_login_error4' => 'პაროლი უნდა შედგებოდეს 6-დან 15 სიმბოლომდე.',
+		'home_f_login_error5' => 'არასწორი ინფორმაცია.',
 
-		'home_f_recovery_txtlink' => 'Забыли пароль?',
+		'home_f_recovery_txtlink' => 'დაგავიწყდათ პაროლი?',
 		'home_f_register_txtlink' => 'დარეგისტრირდით ახლავე',
-		'home_f_recovery_inputemail' => 'Введите действующий E-Mail',
-		'home_f_recovery_brecovery' => 'Отправить',
-		'home_f_recovery_linklogin' => 'Хотите войти?',
+		'home_f_recovery_inputemail' => 'აკრიფეთ სწორი E-Mail',
+		'home_f_recovery_brecovery' => 'გაგზავნა',
+		'home_f_recovery_linklogin' => 'გნებავთ ესვლა?',
 
 
 
-		'home_f_signup_tl' => 'Создать аккаунт',
+		'home_f_signup_tl' => 'ანგარიშის შექმნა',
 		'home_f_signup_em' => 'E-Mail',
-		'home_f_signup_un' => 'Имя пользователя',
-		'home_f_signup_pw' => 'Пароль',
+		'home_f_signup_un' => 'მომხმარებლის სახელი',
+		'home_f_signup_pw' => 'პაროლი',
 		'home_f_signup_repw' => 'გაიმეორეთ პაროლი',
 		'home_f_signup_trmstxt' => 'ვეთანხმები',
 		'home_f_signup_trmslnk' => 'წესებს',
-		'home_f_signup_bt' => 'Создать аккаунт',
-		'home_f_signup_error1' => 'Введите действующий E-Mail',
-		'home_f_signup_error2' => 'Введите имя пользователя',
-		'home_f_signup_error3' => 'Введите ваш пароль',
-		'home_f_signup_error4' => 'Пароль должен содержать от 6 до 15 символов.',
+		'home_f_signup_bt' => 'ანგარიშის შექმნა',
+		'home_f_signup_error1' => 'აკრიფეთ სწორი E-Mail',
+		'home_f_signup_error2' => 'აკრიფეთ მომხმარებლის სახელი',
+		'home_f_signup_error3' => 'აკრიფეთ თქვენი სახელი',
+		'home_f_signup_error4' => 'პაროლი უნდა შედგებოდეს 6-დან 15 სიმბოლომდე.',
 		'home_f_signup_error5' => 'Имя пользователя недоступно.',
 		'home_f_signup_error6' => 'Имя пользователя уже занято.',
 		'home_f_signup_error7' => 'E-Mail уже занято.',
@@ -51,11 +51,11 @@
 		'home_f_signup_error11' => 'აუცილებელია დარეგისტრირდეთ CU-ს მეილით.',
 		'home_f_signup_error12' => 'უნდა დაეთანხმოთ წესებს.',
 
-		'home_f_signup_txtok1' => 'Отлично!',
-		'home_f_signup_txtok2' => 'Учетная запись была создана',
-		'home_f_signup_txtok3' => 'Войти',
+		'home_f_signup_txtok1' => 'მშვენიერია!',
+		'home_f_signup_txtok2' => 'თქვენ წარმატებით დარეგისტრირდით',
+		'home_f_signup_txtok3' => 'შესვლა',
 
-		'home_f_btcancel' => 'Отмена',
+		'home_f_btcancel' => 'გაუქმება',
 
 	);
 

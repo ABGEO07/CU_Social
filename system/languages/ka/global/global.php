@@ -1,117 +1,114 @@
 <?php
-	
+
 	$lang	= array
 	(
 
 
-		'global_txt_search'	=> 'Поиск пользователей, хештэгов',
-		'global_txt_languages'	=> 'Языки',
-		
-		'global_txt_hashtag'	=> 'Хештег',
-		'global_txt_title-trending'	=> 'Актуальные темы',
-		'global_txt_notrending'	=> 'Нет записи (ей)',
-		
-		'global_tmenu_opc_register'	=> 'Регистрация',
-		'global_tmenu_opc_profile'	=> 'Моя страница',
-		'global_tmenu_opc_dashboard' => 'Моя приборная панель',
-		'global_tmenu_opc_messages' => 'Мои сообщения',
-		'global_tmenu_opc_notifications'	=> 'Мои уведомления',	
-		'global_tmenu_opc_logout'	=> 'Выйти',
-		
-		'global_pagesmenu_title' => 'Информация',
-		
-		'global_pagesmenu_opc_about' => 'О нас',
-		'global_pagesmenu_opc_privacy' => 'Конфидециальность',
-		'global_pagesmenu_opc_termsofuse' => 'Правила пользования',
-		'global_pagesmenu_opc_disclaimer' => 'Отказ от ответственности',
-		'global_pagesmenu_opc_contact' => 'Обратная связь',
-		
-		'global_txt_moreitems'	=> 'Другие элементы',
-		'global_txt_no_request' => 'Запрос не может быть выполнен...',
-		
-		'global_txt_allnotifications' => 'Все уведомления',
-		'global_txt_comment' => 'прокомментировал',
-		'global_txt_like' => 'понравилось',
-		'global_txt_follow' => 'теперь читает вас.',
-		'global_txt_photo' => 'добавил фотографию',
-		'global_txt_post' => 'добавил запись',
-		'global_txt_allmessages' => 'Все сообщения',
-		
-		'global_txt_close_notification' => 'Закрыть',
-		
-		'global_txt_joined' => 'Теперь с нами на <b class="bold">#SITE_TITLE#</b> в',
-		
-		'global_txt_directory' => 'Пользователи',
-		'global_txt_directory_hasphoto' => 'Имеет #NUM# запись',
-		'global_txt_directory_hasphotos' => 'Имеет #NUM# записи (ей)',
-		
-		'global_txt_search_post' => 'запись',
-		'global_txt_search_posts' => 'записи (ей)',
+		'global_txt_search'	=> 'მომხმარებლებისა და ჰეშთეგების ძებნა',
+		'global_txt_languages'	=> 'ენები',
+
+		'global_txt_hashtag'	=> 'ჰეშთეგი',
+		'global_txt_title-trending'	=> 'აქტუალური თემები',
+		'global_txt_notrending'	=> 'არ არის ჩანაწერ(ებ)ი',
+
+		'global_tmenu_opc_register'	=> 'რეგისტრაცია',
+		'global_tmenu_opc_profile'	=> 'ჩემი გვერდი',
+		'global_tmenu_opc_dashboard' => 'ჩემი სამართავი პანელი',
+		'global_tmenu_opc_messages' => 'ჩემი წერილები',
+		'global_tmenu_opc_notifications'	=> 'ჩემი შეტყობინებები',
+		'global_tmenu_opc_logout'	=> 'გასვლა',
+
+		'global_pagesmenu_title' => 'ინფორმაცია',
+
+		'global_pagesmenu_opc_about' => 'ჩვენ შესახებ',
+		'global_pagesmenu_opc_privacy' => 'კონფიდენციალურობა',
+		'global_pagesmenu_opc_termsofuse' => 'მოხმარების წესები',
+		'global_pagesmenu_opc_disclaimer' => 'პასუხისმგებლობისგან განთვისუფლება',
+		'global_pagesmenu_opc_contact' => 'კონტაქტი',
+
+		'global_txt_moreitems'	=> 'სხვა ელემენტები',
+		'global_txt_no_request' => 'მოთხოვნა ვერ შესრულდება...',
+
+		'global_txt_allnotifications' => 'ყველა შეტყობინება',
+		'global_txt_comment' => 'დააკომენტარა',
+		'global_txt_like' => 'მოეწონა',
+		'global_txt_follow' => 'გამოგიწერათ თქვენ.',
+		'global_txt_photo' => 'დაამატა ახალი ფოტო',
+		'global_txt_post' => 'გამოაქვეყნა პუბლიკაცია',
+		'global_txt_allmessages' => 'ყველა წერილი',
+
+		'global_txt_close_notification' => 'დახურვა',
+
+		'global_txt_joined' => 'უკვე <b class="bold">#SITE_TITLE#</b>-ზეა ',
+
+		'global_txt_directory' => 'მომხმარებლები',
+		'global_txt_directory_hasphoto' => 'აქვს #NUM# ჩანაწერი',
+		'global_txt_directory_hasphotos' => 'აქვს #NUM# ჩანაწერი',
+
+		'global_txt_search_post' => 'ჩანაწერი',
+		'global_txt_search_posts' => 'ჩანაწერები',
 
 
 		'global_format_date'	=> 'l, F j, Y',
 		'global_format_date_simple'	=> 'F j, Y',
-		'global_time_sec'	=> 'секунд',
-		'global_time_secs'	=> 'секунды',
-		'global_time_min'	=> 'минут',
-		'global_time_mins'	=> 'минуты',
-		'global_time_hou'	=> 'час',
-		'global_time_hous'	=> 'часов',
-		'global_time_day'	=> 'день',
-		'global_time_days'	=> 'дней',
-		'global_time_mon'	=> 'месяц',
-		'global_time_mons'	=> 'месяцев',
-		'global_time_yea'	=> 'год',
-		'global_time_yeas'	=> 'лет',
-		'global_time_end'	=> '#TXTEND# назад',
-		
-		'global_txtloading'	=> 'Загрузка...',
-		'global_txtclose'	=> 'Закрыть (Esc)',
-		'global_txt_next' => 'Следующий',
-		'global_txt_prev' => 'Предыдущий',
-		'global_txt_of' => 'из',
-		'global_txtloading' => 'Загрузка изображения',
-		
-		'global_search_title'	=> 'Поиск...',
-		'global_search_noresult'	=> 'Нет результата.',
-		'global_search_qshort'	=> 'Пожалуйста, введите в поиск не менее 2 символа.',
-		'global_search_moreresults' => 'Еще результаты',
-		'global_search_msgclose' => 'Закрыть',
-		
+		'global_time_sec'	=> 'წამის',
+		'global_time_secs'	=> 'წამის',
+		'global_time_min'	=> 'წუთის',
+		'global_time_mins'	=> 'წუთის',
+		'global_time_hou'	=> 'საათის',
+		'global_time_hous'	=> 'საათის',
+		'global_time_day'	=> 'დღის',
+		'global_time_days'	=> 'დღის',
+		'global_time_mon'	=> 'თვის',
+		'global_time_mons'	=> 'თვის',
+		'global_time_yea'	=> 'წლის',
+		'global_time_yeas'	=> 'წლის',
+		'global_time_end'	=> '#TXTEND# წინ',
 
-		
-		'global_txt_search_users'	=> 'Найти пользователя',
-		
-		'global_post_txtstatus' => 'Мой микроблог',
-		'global_post_txtplaceholder' => 'Что у Вас нового?',
-		'global_post_txtbpost' => 'Отправить',
-		'global_post_txttitlevideo' => 'Добавить видео',
-		'global_post_txttitleimage' => 'Добавить картинку',
-		'global_post_txtimgselected' => 'выбрано изображений.',
-		'global_post_txtsharevideo' => 'Поделитесь ссылкой на видео из Youtube или Vimeo',
-		
-		'global_post_txterror1' => 'Слишком много изображений. На 1 запись разрешено только',
-		'global_post_txterror2' => 'Загружаемый файл очень большого размера.',
-		'global_post_txterror3' => 'Загружаемый файл имеет неправильный тип.',
-		'global_post_txterror4' => 'Неккоректный адрес на видеозапись.',
-		'global_post_txterror5' => 'Добавляемая запись не имеет символов или на вложение есть ошибка.',
-		
-		'global_msg_txtdeletemsg' => 'Удалить',
-		'global_msg_txtlike' => 'Мне нравится',
-		'global_msg_txtunlike' => 'Не нравится',
-		'global_msg_txtcomment' => 'Комментировать',
-		'global_msg_txtwithoutcomment' => 'Введите комментарий',
+		'global_txtloading'	=> 'ჩატვირთვა...',
+		'global_txtclose'	=> 'დახურვა (Esc)',
+		'global_txt_next' => 'შემდეგი',
+		'global_txt_prev' => 'წინა',
+		'global_txt_of' => '-',
+		'global_txtloading' => 'ფოტო იტვირთება',
 
-		'global_comment_txtbsave' => 'Отправить',
-		'global_comment_txtleave' => 'Комментировать...',
-		'global_comment_txtmorecomment' => 'Показать еще',
-		
-		'global_msg_menuadmin' => 'Административная панель',
-		
-		'global_msg_nonlogin' => 'Войдите или зарегистрируйтесь, чтобы иметь расширенные действия на сайте.',
+		'global_search_title'	=> 'ძიება...',
+		'global_search_noresult'	=> 'არ არიდ რეზულტატი.',
+		'global_search_qshort'	=> 'გთხოვთ, ძიებაში ჩაწერეთ მინიმუმ 2 სიმბოლო.',
+		'global_search_moreresults' => 'მეტი რეზულტატი',
+		'global_search_msgclose' => 'დახურვა',
 
 
 
+		'global_txt_search_users'	=> 'მომხმარებლის ძიება',
+
+		'global_post_txtstatus' => 'ჩემი ბლოგი',
+		'global_post_txtplaceholder' => 'რა არის თქვნთან ახალი?',
+		'global_post_txtbpost' => 'პუბლიკაცია',
+		'global_post_txttitlevideo' => 'ვიდეოს დამატება',
+		'global_post_txttitleimage' => 'ფოტოს დამატება',
+		'global_post_txtimgselected' => 'ფოტოა არჩეული.',
+		'global_post_txtsharevideo' => 'გააზიარეთ ვიდეოს ლინკი Youtube-დან ან Vimeo-დან',
+
+		'global_post_txterror1' => 'ზედმეტი ფოტო. 1 პოსტისთვის დაშვებული ფოტოების რაოდენობაა',
+		'global_post_txterror2' => 'ასატვირთი ფაილის ზომა აღემატება დაშვებულს.',
+		'global_post_txterror3' => 'ასატვირთი ფაილის გაფართოება არ არის დაშვებული.',
+		'global_post_txterror4' => 'ვიდეოს არასწორი ლინკი.',
+		'global_post_txterror5' => 'პუბლიკაცია არ შეიცავს ტექსტს ან შეიცავს შეცდომებს.',
+
+		'global_msg_txtdeletemsg' => 'წაშლა',
+		'global_msg_txtlike' => 'მომწონს',
+		'global_msg_txtunlike' => 'არ მომწონს',
+		'global_msg_txtcomment' => 'დაკომენტარება',
+		'global_msg_txtwithoutcomment' => 'აკრიფეთ კომენტარი',
+
+		'global_comment_txtbsave' => 'გაგზავნა',
+		'global_comment_txtleave' => 'დაკომენტარება...',
+		'global_comment_txtmorecomment' => 'მეტის ნახვა',
+
+		'global_msg_menuadmin' => 'სამართავი პანელი',
+
+		'global_msg_nonlogin' => 'გაიარეთ ავტორიზაცია ან დარეგისტრირდით რათა გქონდეთ მეტი უფლება საიტზე.',
 	);
-	
+
 ?>
